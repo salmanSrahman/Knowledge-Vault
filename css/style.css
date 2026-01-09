@@ -1,0 +1,352 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+}
+ul,li,ol{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-width {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 71%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  cursor: pointer;
+}
+.secondary {
+  color: #001931;
+}
+.third {
+  color: #627382;
+}
+
+
+/* ========================
+       Global CSS End
+========================== */
+
+.navbar {
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+.nav-menu a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: black;
+}
+.btn {
+  /* background: #469165; */
+  background: #22c55e;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  transition: all linear 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  border-color: #22c55e;
+  /* color: #469165; */
+  color: #000;
+}
+
+/* ========================
+       Navbar CSS End
+========================== */
+.hero {
+  background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)),
+    url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: #e6fffa;
+  color: #065f46;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.hero h1 span {
+  display: block;
+  color: #4ade80;
+}
+
+
+.hero p {
+  max-width: 720px;
+  margin: 0 auto 30px;
+  color: #d1d5db;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #22c55e;
+  color: #052e16;
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.primary-btn:hover {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 14px 26px;
+  border-radius: 8px;
+}
+
+.secondary-btn:hover {
+  border-color: #16a34a;
+}
+
+.secondary-btn i {
+  font-size: 16px;
+  color: white;
+  margin-top: 4px;
+}
+
+/* ========================
+       banner CSS End
+========================== */
+/* ========================
+       notes CSS End
+========================== */
+.notes {
+  padding: 30px 0;
+  text-align: center;
+   margin-bottom: 40px;
+}
+.notes h1 {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+.notes p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.notes-card {
+  margin-top: 44px;
+  display: flex;
+  column-gap: 24px;
+}
+
+.notes .card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 30px 24px;
+  border-radius: 14px;
+  text-align: center;
+}
+.card-icon {
+  width: 50px;
+  height: 50px;
+  background: #f95555;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.card-icon i {
+  color: white;
+  font-size: 18px;
+}
+.card h2 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 14px 0;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* ========================
+       notes CSS End
+========================== */
+
+/* ========================
+       solution CSS End
+========================== */
+.solution{
+  margin-bottom: 40px;
+  
+}
+
+.solution-inner {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+.solution_img {
+  width: 45%;
+}
+.solution_img img{
+  width: 100%;
+}
+.solution_text {
+  width: 55%;
+}
+.solution_text h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #16a34a;
+  margin-bottom: 10px;
+}
+.solution_text h1 {
+   font-size: 45px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.solution_text p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.solution_list {
+  display: block;
+  color: #4ade80;
+    margin-top: 40px;
+  margin-bottom: 5px;
+}
+.solution_list li{
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  color: #001931;
+  font-size: 16px ;
+  margin-bottom: 16px;
+}
+.solution_list i{
+ width: 27px;
+  height: 27px;
+  background: #4ade80;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+
+}
+
+
+.hero h1 {
+  
+}
+.hero h1 span {
+  
+}
+/* ========================
+       solution CSS End
+========================== */
+
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */
+/* ========================
+       Global CSS End
+========================== */

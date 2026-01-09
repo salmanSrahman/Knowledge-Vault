@@ -217,22 +217,19 @@ button {
 }
 .card h2 {
   text-transform: capitalize;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   margin: 14px 0;
 }
 .card p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 /* ========================
        notes CSS End
 ========================== */
 
-/* ========================
-       solution CSS End
-========================== */
-.solution {
+.brain-solution {
   margin-bottom: 40px;
 }
 
@@ -280,7 +277,9 @@ button {
   column-gap: 6px;
   color: #001931;
   font-size: 16px;
+  font-weight: 500;
   margin-bottom: 16px;
+
 }
 .solution_list i {
   width: 27px;
